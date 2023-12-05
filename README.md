@@ -161,7 +161,7 @@ In phase I, data ingestion and analysis is performed. The data analyzed in this 
 - Write Spark DF to Postgres
 
 
-The original FIFA dataset contains 109 columns with both numeric and nominal features. Note that at this stage, we created a column with unique id called `id` as the primary key to this new table, this ensures every record can be uniquely identified in the database table. A column `year` is also added to the table as an indicator of the source year of a specific record. Some details descriptions and constraints of every column can be found in the [phaseI_data_analysis](https://github.com/Systems-and-Toolchains-Fall-2023/course-project-option-1-dalenhsiao/tree/main/phaseI_data_analysis#fifa-dataframe-despription).
+The original FIFA dataset contains 109 columns with both numeric and nominal features. Note that at this stage, we created a column with unique id called `id` as the primary key to this new table, this ensures every record can be uniquely identified in the database table. A column `year` is also added to the table as an indicator of the source year of a specific record. Some details descriptions and constraints of every column can be found in the [phaseI_Spark_Data_Analysis](https://github.com/dalenhsiao/Spark_FIFA_Dataset_Analysis/tree/main/phaseI_Spark_Data_Analysis).
 
 
 ### Data Analysis
